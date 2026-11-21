@@ -1,0 +1,156 @@
+body {
+    background-color: #F4F0E6;
+    color: #163C43;
+    font-family: Arial, sans-serif;
+}
+
+a { color: #CE704F; text-decoration: none; }
+
+h1, h2, h3 { font-family: Georgia, serif; }
+h2 { font-size: 35px; margin: 20px 0; }
+
+.tag {
+    color: #CE704F;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* textes en gris */
+.intro, .hero-text p, .about-text, .band p { color: #68756C; }
+
+.section { padding-top: 75px; padding-bottom: 75px; }
+.band { background-color: #E9EADF; }
+
+.form-control:focus, .form-select:focus {
+    border-color: #CE704F;
+    box-shadow: none;
+}
+
+/* messages cachés au départ (affichés par JavaScript) */
+#no-results, #error-message, #result, #confirmation { display: none; }
+#result-count { font-weight: bold; }
+
+/* boutons */
+.btn-site {
+    display: inline-block;
+    padding: 12px 18px;
+    margin: 4px 4px 4px 0;
+    border: 0;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-site:hover { opacity: 0.8; color: white; }
+.btn-blue { background-color: #163C43; }
+.btn-orange { background-color: #CE704F; }
+.btn-olive { background-color: #899477; }
+
+/* boîtes */
+.box { background-color: white; padding: 25px; }
+.box-sand { background-color: #E9EADF; padding: 25px; }
+
+/* navbar */
+.navbar { padding: 20px 0; }
+.navbar-brand {
+    color: #163C43;
+    font-family: Georgia, serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+.navbar-brand span { color: #CE704F; }
+.nav-link { color: #163C43; margin-left: 18px; }
+.nav-link:hover, .nav-link.active { color: #CE704F; }
+
+/* accueil */
+.hero { padding-top: 45px; padding-bottom: 80px; }
+.hero h1 { font-size: 70px; line-height: 1.1; margin: 25px 0; }
+.hero h1 i { color: #CE704F; font-weight: normal; }
+.hero-text p { line-height: 1.8; max-width: 400px; }
+
+.hero-picture img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 48% 48% 3px 3px;
+}
+
+.about { border-top: 1px solid #ddd9cc; }
+.about-text { line-height: 1.9; }
+
+.section-title h2 { margin-bottom: 0; }
+
+.why ul { list-style-type: square; padding-left: 20px; margin-top: 25px; }
+.why li { padding: 10px 0; }
+
+.booking { background-color: #163C43; color: white; text-align: center; }
+.booking .tag { color: #DDA17F; }
+.booking h2 { font-size: 38px; }
+.booking p { color: #CDD7D1; }
+
+/* cartes des activités */
+.place-card {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+    transition: 0.3s;
+}
+.place-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 20px rgba(22, 60, 67, 0.2);
+}
+.place-card img { height: 220px; object-fit: cover; }
+.place-card .card-body { padding: 22px; }
+.place-card small { color: #CE704F; letter-spacing: 1px; }
+.place-card h3 { font-size: 21px; margin: 14px 0 10px; }
+
+.card-bottom {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+/* pages internes */
+.page { padding-top: 65px; padding-bottom: 80px; }
+.page h1 { font-size: 45px; margin: 20px 0; }
+.intro { margin-bottom: 35px; }
+
+.modal-header { background-color: #E9EADF; }
+
+/* agenda */
+.agenda-table { background-color: white; }
+.agenda-table thead th { background-color: #163C43; color: white; padding: 15px; }
+.agenda-table td { padding: 15px; }
+.agenda-table caption { color: #CE704F; font-weight: bold; }
+
+/* réservation */
+.price-line { padding: 15px 0; border-bottom: 1px solid #d5d8cc; }
+.total-line { font-size: 18px; color: #CE704F; }
+
+/* contact */
+.contact-image { width: 100%; height: 300px; object-fit: cover; }
+.image-caption { color: #68756C; margin-top: 10px; font-size: 13px; }
+.accordion-button:focus { box-shadow: none; }
+
+/* footer */
+footer { background-color: #102E34; color: white; padding: 35px 0 15px; }
+.footer-top { margin-bottom: 25px; }
+footer .navbar-brand { color: white; }
+.footer-top nav a { color: white; margin-right: 15px; font-size: 13px; }
+footer p {
+    border-top: 1px solid #426066;
+    padding-top: 15px;
+    margin: 0;
+    color: #AAB9B2;
+    font-size: 12px;
+}
+footer p a { color: #DDA17F; }
+
+/* mobile */
+@media (max-width: 768px) {
+    .hero { padding-top: 25px; }
+    .hero h1 { font-size: 46px; }
+    .hero-picture img { height: 300px; margin-top: 25px; }
+    .section { padding-top: 55px; padding-bottom: 55px; }
+}
