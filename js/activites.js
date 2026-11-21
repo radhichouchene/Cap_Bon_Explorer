@@ -21,7 +21,7 @@ const activities = [
       description: "Découvrez les paysages de Kélibia. Profitez des vues sur la Méditerranée. Explorez la beauté de la côte." },
 
     { id: "A06", title: "Peinture sur céramique", category: "Artisanat", location: "Nabeul", duration: "2 h", price: 25,
-      image: "images/découverte.avif", hook: "Exprimez votre créativité.",
+      image: "images/images (4).jpg", hook: "Exprimez votre créativité.",
       description: "Découvrez la décoration sur céramique. Utilisez différentes couleurs et motifs. Créez votre propre décoration." },
 
     { id: "A07", title: "Découverte d'un marché local", category: "Découverte", location: "Nabeul", duration: "1 h 30", price: 15,
